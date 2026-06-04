@@ -26,9 +26,7 @@ Sub-questions include:
 
 ### 1. Exploratory Data Analysis
 
-Notebook: `1_Mortgage_Loan_EDA.ipynb`
-
-loads the mortgage loan dataset, reviews data quality, analyzes the target variable, explores numerical and categorical feature relationships, performs feature engineering, and saves an engineered dataset for modeling.
+Notebook: `1_Mortgage_Loan_EDA.ipynb` loads the mortgage loan dataset, reviews data quality, analyzes the target variable, explores numerical and categorical feature relationships, performs feature engineering, and saves an engineered dataset for modeling.
 
 Main outputs:
 
@@ -39,9 +37,7 @@ Main outputs:
 
 ### 2. Regression Modeling and Evaluation
 
-Notebook: `2_Modeling_Evaluation_final_screened.ipynb`
-
-trains and evaluates candidate regression models to predict the maximum approved mortgage loan amount.
+Notebook: `2_Modeling_Evaluation_final_screened.ipynb` trains and evaluates candidate regression models to predict the maximum approved mortgage loan amount.
 
 Candidate models include:
 
@@ -62,9 +58,7 @@ Main outputs:
 
 ### 3. Mortgage-Rate Forecasting and 10-Year Projection
 
-Notebook: `3_Forecasting_Projection_final_screened.ipynb`
-
-loads the trained regression model and historical 30-year fixed mortgage-rate data. It creates a 10-year mortgage-rate forecast path and uses borrower assumptions to project future borrowing capacity.
+Notebook: `3_Forecasting_Projection_final_screened.ipynb` loads the trained regression model and historical 30-year fixed mortgage-rate data. It creates a 10-year mortgage-rate forecast path and uses borrower assumptions to project future borrowing capacity.
 
 The time-series section uses a central trend forecast combined with historically sampled monthly fluctuations. This creates a future rate path that behaves more like real mortgage-rate data than a flat rolling-average forecast.
 
