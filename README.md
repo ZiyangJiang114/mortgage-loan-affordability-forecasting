@@ -80,12 +80,12 @@ Main outputs:
 
 This project uses two input datasets:
 
-1. `mortgage_loan_dataset.csv`  
-   Borrower-level mortgage loan dataset used for exploratory analysis and regression modeling.
+1. `mortgage_loan_dataset.csv`  from Kaggle
+   [Borrower-level mortgage loan dataset used for exploratory analysis and regression modeling.](https://www.kaggle.com/datasets/chukwuemeka64/mortgage-data/data?select=mortgage_loan_dataset.csv)
 
-2. `MORTGAGE30US-2.csv`  
-   Historical 30-year fixed mortgage-rate dataset used for time-series forecasting and future affordability projection.
-
+2. `MORTGAGE30US-2.csv`  from FRED
+  [ Historical 30-year fixed mortgage-rate dataset used for time-series forecasting and future affordability projection.
+](https://fred.stlouisfed.org/series/MORTGAGE30US)
 ## Methods
 
 ### Feature Engineering
